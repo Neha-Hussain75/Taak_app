@@ -1,4 +1,4 @@
-# Quzify — Quiz App with Timer ⏰
+# Quizify — Quiz App with Timer ⏰
 
 ## Objective
 A simple quiz app built with Jetpack Compose that displays multiple-choice questions one by one with a countdown timer.
