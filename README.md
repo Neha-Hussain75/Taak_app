@@ -17,7 +17,6 @@ A simple quiz app built with Jetpack Compose that displays multiple-choice quest
 4. Run on Emulator or Physical Android Device
 
 ## Screenshots
-## Screenshots
 
 ### 🏠 Home Screen
 ![Home Screen](screenshots/home.jpg)
