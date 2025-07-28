@@ -25,5 +25,11 @@ A modern personal task manager app built with **Jetpack Compose**, designed to h
 3. Let **Gradle sync and build the project**  
 4. Click **Run** on Emulator or Physical Android Device
 
+---
 
+### 📸 Screenshots
+
+| 🏠 Home Screen              | ➕ Add Task                 | ✏️ Edit Task                |
+|-----------------------------|----------------------------|-----------------------------|
+| ![Home](screenshots/56.jpg) | ![Add](screenshots/57.jpg) | ![Edit](screenshots/58.jpg) |
 
