@@ -1,4 +1,4 @@
-package com.example.quizapp2
+package com.example.taskmanager
 
 import org.junit.Test
 

@@ -8,7 +8,6 @@ A simple quiz app built with Jetpack Compose that displays multiple-choice quest
 -  10-Second Countdown Timer for Each Question
 -  Auto-skip to next question if time runs out
 -  Score displayed at the end
--  Clean & Modern UI with Animations
 -  Navigation between Home, Quiz, and Result Screens
 
 ## How to Run

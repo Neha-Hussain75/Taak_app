@@ -1,4 +1,4 @@
-package com.example.quizapp2.ui.theme
+package com.example.taskmanager.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

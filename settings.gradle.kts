@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "QuizApp2"
+rootProject.name = "taskmanager"
 include(":app")
