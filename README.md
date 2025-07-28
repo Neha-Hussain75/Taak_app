@@ -1,40 +1,29 @@
-# Quizify — Quiz App with Timer ⏰
+# ✅ My Tasks — Personal Task Manager App
 
-## Objective
-A simple quiz app built with Jetpack Compose that displays multiple-choice questions one by one with a countdown timer.
+### 🎯 Objective  
+A modern personal task manager app built with **Jetpack Compose**, designed to help you stay organized with task status, priority, and reminders.
 
-## Features
--  5 Multiple Choice Questions
--  10-Second Countdown Timer for Each Question
--  Auto-skip to next question if time runs out
--  Score displayed at the end
--  Navigation between Home, Quiz, and Result Screens
+---
 
-## How to Run
-1. Clone the repository or download ZIP
-2. Open in Android Studio (latest version recommended)
-3. Sync Gradle and build project
-4. Run on Emulator or Physical Android Device
+### ✨ Features
 
-## Screenshots
+- ➕ Add, Edit, and Delete Tasks  
+- ✅ Mark Tasks as Pending / Done  
+- 🔺 Select Priority (Low, Medium, High)  
+- 🏷️ Optional Status and Priority Dropdowns  
+- 📅 Task Date Selection  
+- 🧾 Clean and modern **Material 3 UI**  
+- 🔃 MVVM Architecture with Room Database  
+- 📱 Full Jetpack Compose UI (No XML)  
 
-<<<<<<< HEAD
-<h3>🏠 Home Screen</h3>  
-<img src="screenshots/home.jpg" alt="Home Screen" width="300"/>
+---
 
-<h3>📝 Quiz Screen</h3>  
-<img src="screenshots/quiz.jpg" alt="Quiz Screen" width="300"/>
+### 🛠️ How to Run
 
-<h3>🏁 Result Screen</h3>  
-<img src="screenshots/result.jpg" alt="Result Screen" width="300"/>
-=======
+1. **Clone the repository** or download the ZIP  
+2. Open in **Android Studio** (latest version recommended)  
+3. Let **Gradle sync and build the project**  
+4. Click **Run** on Emulator or Physical Android Device
 
-<h3>🏠 Home Screen</h3>  
-<img src="screenshots/home.jpg" alt="Home Screen" width="300"/>
 
-<h3>📝 Quiz Screen</h3>  
-<img src="screenshots/quiz.jpg" alt="Quiz Screen" width="300"/>
 
-<h3>🏁 Result Screen</h3>  
-<img src="screenshots/result.jpg" alt="Result Screen" width="300"/>
->>>>>>> a38c516b879d137b19322b9a6dece3c9ef4922b8
