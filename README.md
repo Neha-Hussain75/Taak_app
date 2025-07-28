@@ -18,6 +18,7 @@ A simple quiz app built with Jetpack Compose that displays multiple-choice quest
 
 ## Screenshots
 
+<<<<<<< HEAD
 <h3>🏠 Home Screen</h3>  
 <img src="screenshots/home.jpg" alt="Home Screen" width="300"/>
 
@@ -26,3 +27,14 @@ A simple quiz app built with Jetpack Compose that displays multiple-choice quest
 
 <h3>🏁 Result Screen</h3>  
 <img src="screenshots/result.jpg" alt="Result Screen" width="300"/>
+=======
+
+<h3>🏠 Home Screen</h3>  
+<img src="screenshots/home.jpg" alt="Home Screen" width="300"/>
+
+<h3>📝 Quiz Screen</h3>  
+<img src="screenshots/quiz.jpg" alt="Quiz Screen" width="300"/>
+
+<h3>🏁 Result Screen</h3>  
+<img src="screenshots/result.jpg" alt="Result Screen" width="300"/>
+>>>>>>> a38c516b879d137b19322b9a6dece3c9ef4922b8
