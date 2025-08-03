@@ -38,14 +38,13 @@ fun TaskListScreen(
                             text = "📋",
                             fontWeight = FontWeight.Bold,
                             fontSize = 28.sp,
-                            modifier = Modifier.padding(end = 4.dp, top = 16.dp)
+                            modifier = Modifier.padding(end = 4.dp)
                         )
                         Spacer(modifier = Modifier.width(6.dp))
                         Text(
                             text = "My Tasks",
                             fontWeight = FontWeight.Bold,
-                            fontSize = 30.sp,
-                            modifier = Modifier.padding(top = 24.dp)
+                            fontSize = 30.sp
                         )
                     }
                 },
@@ -53,7 +52,7 @@ fun TaskListScreen(
                     OutlinedButton(
                         onClick = onAddClick,
                         modifier = Modifier
-                            .padding(end = 16.dp, top = 20.dp)
+                            .padding(end = 16.dp)
                             .height(40.dp)
                             .widthIn(min = 96.dp),
                         border = BorderStroke(1.dp, Color(0xFF939396)),
@@ -77,9 +76,6 @@ fun TaskListScreen(
                         )
                     }
                 },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(88.dp),
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = Color(0xFFD1E0EE)
                 )
@@ -89,10 +85,7 @@ fun TaskListScreen(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(
-                    top = padding.calculateTopPadding() + 2.dp,
-                    bottom = 16.dp
-                )
+                .padding(padding) // ← Scaffold already provides top padding!
         ) {
             TabRow(
                 selectedTabIndex = selectedTab,
@@ -118,15 +111,13 @@ fun TaskListScreen(
                 modifier = Modifier
                     .fillMaxSize()
                     .background(Color(0xFFF8F9FF))
-                    .padding(horizontal = 16.dp, vertical = 4.dp)
+                    .padding(horizontal = 16.dp, vertical = 8.dp)
             ) {
                 val filteredTasks = when (selectedTab) {
                     1 -> tasks.filter { it.status == TaskStatus.PENDING }
                     2 -> tasks.filter { it.status == TaskStatus.DONE }
                     else -> tasks
                 }
-
-                Spacer(modifier = Modifier.height(16.dp))
 
                 if (filteredTasks.isEmpty()) {
                     Box(
